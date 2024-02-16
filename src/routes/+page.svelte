@@ -122,6 +122,13 @@
 <div class="mt-20 max-w-screen-lg mx-auto px-8">
 	<h1 class="font-bold text-4xl">nasin nanpa playground</h1>
 
+	<p class="mt-2">
+		<a
+			href="https://github.com/cubedhuang/sp-font-test/tree/main"
+			class="text-blue-500 hover:underline">GitHub</a
+		>
+	</p>
+
 	<textarea class="mt-4 text-input h-32 w-full p-4" bind:value={$rawWords}
 	></textarea>
 
