@@ -141,7 +141,12 @@
 }
 
 @layer components {
-	.input {
-		@apply border-2 rounded-xl outline-none focus:border-blue-500 transition;
+	.text-input {
+		@apply border-2 rounded-xl outline-none focus:border-blue-500 transition
+			disabled:bg-gray-100 disabled:text-gray-500;
+	}
+
+	.button {
+		@apply border-2 rounded-xl outline-none hv:border-blue-500 hv:bg-blue-500 hv:text-white transition;
 	}
 }
