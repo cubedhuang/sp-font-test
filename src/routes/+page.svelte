@@ -136,7 +136,7 @@
 		<input
 			type="text"
 			bind:value={before}
-			class="text-input px-2 py-1 w-24 text-center"
+			class="text-input px-2 py-1 w-12 text-center"
 		/>
 
 		{#if useCombos}
@@ -156,7 +156,7 @@
 		<input
 			type="text"
 			bind:value={after}
-			class="text-input px-2 py-1 w-24 text-center"
+			class="text-input px-2 py-1 w-12 text-center"
 		/>
 	</div>
 
