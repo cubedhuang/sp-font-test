@@ -126,8 +126,8 @@
 				{combo}
 
 				<span
-					class="absolute z-10 bottom-full font-sans text-base left-1/2 -translate-x-1/2
-						opacity-0 group-hover:opacity-100 transition-opacity duration-200
+					class="absolute z-10 bottom-full font-sans text-base left-1/2 -translate-x-1/2 pointer-events-none
+						opacity-0 group-hover:opacity-100 transition-opacity duration-200 group-hover:pointer-events-auto
 						bg-black text-white px-2 py-1 rounded-lg"
 				>
 					{combo}
