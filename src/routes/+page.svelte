@@ -122,8 +122,16 @@
 
 	<div class="mt-4 flex flex-wrap">
 		{#each output as combo}
-			<p class="border font-pona p-2 text-4xl sm:text-5xl">
+			<p class="border font-pona p-2 text-4xl sm:text-5xl group relative">
 				{combo}
+
+				<span
+					class="absolute z-10 bottom-full font-sans text-base left-1/2 -translate-x-1/2
+						opacity-0 group-hover:opacity-100 transition-opacity duration-200
+						bg-black text-white px-2 py-1 rounded-lg"
+				>
+					{combo}
+				</span>
 			</p>
 		{/each}
 	</div>
