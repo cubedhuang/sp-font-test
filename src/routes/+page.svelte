@@ -122,7 +122,7 @@
 
 	<div class="mt-4 flex flex-wrap">
 		{#each output as combo}
-			<p class="border font-pona p-2 text-6xl">
+			<p class="border font-pona p-2 text-4xl sm:text-5xl">
 				{combo}
 			</p>
 		{/each}
