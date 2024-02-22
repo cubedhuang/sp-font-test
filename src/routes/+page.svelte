@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { rawWords } from '$lib/stores';
 	import { onMount } from 'svelte';
+	import FontUpload from './FontUpload.svelte';
 
 	async function resetWords(includeParticles: boolean) {
 		const particles = ['anu', 'e', 'en', 'la', 'li', 'pi'];
@@ -119,7 +120,7 @@
 	<title>nasin nanpa playground</title>
 </svelte:head>
 
-<div class="mt-20 max-w-screen-lg mx-auto px-8">
+<div class="my-20 max-w-screen-lg mx-auto px-8">
 	<h1 class="font-bold text-4xl">nasin nanpa playground</h1>
 
 	<p class="mt-2">
@@ -139,7 +140,9 @@
 		Word List without Particles
 	</button>
 
-	<div class="mt-4 flex items-baseline">
+	<FontUpload />
+
+	<div class="mt-2 flex items-baseline">
 		<input
 			type="text"
 			bind:value={before}

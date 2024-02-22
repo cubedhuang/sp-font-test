@@ -9,7 +9,11 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				sans: ['"Inter"', ...defaultTheme.fontFamily.sans],
-				pona: ['"nasin-nanpa"', ...defaultTheme.fontFamily.sans]
+				pona: [
+					'"UploadedFont"',
+					'"nasin-nanpa"',
+					...defaultTheme.fontFamily.sans
+				]
 			}
 		}
 	},
